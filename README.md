@@ -1,6 +1,5 @@
-Organizations continuously create enterprise value through business change.
-
-Business Change Verification (BCV) is an open standard for verifying that those changes are accurately reflected wherever machine systems increasingly influence enterprise decisions.
+[README.md](https://github.com/user-attachments/files/30638520/README.md)
+Business Change Verification is an open methodology. It is not a product, platform, or software implementation.
 
 ---
 
@@ -25,18 +24,44 @@ Business Change Verification defines that process.
 
 ---
 
-## The Workflow
+## Why BCV Exists
+
+Organizations routinely verify legal, financial, cybersecurity, and regulatory changes.
+
+Very few verify how those same changes are represented across machine-consumed information systems.
+
+BCV exists to define that verification process.
+
+---
+
+## BCV Lifecycle
 
 Every Business Change follows the same lifecycle.
+
+```
+Business Change
+       ↓
+Current Machine View
+       ↓
+Evidence
+       ↓
+Gap Identification
+       ↓
+Implementation
+       ↓
+Verification Complete
+```
 
 1. A material business change occurs.
 2. The current machine view is observed.
 3. Evidence is collected.
-4. Differences between intended and observed understanding are identified.
+4. Differences between intended and observed representation are identified.
 5. Corrective actions are implemented.
 6. Verification confirms the change has propagated.
 
 The methodology is intentionally independent of any specific AI model or search engine.
+
+BCV defines **what** should be verified. It intentionally does not prescribe **how** organizations implement that verification.
 
 ---
 
@@ -103,8 +128,25 @@ Those belong to operational platforms built on top of the methodology.
 
 ---
 
+## Repository Structure
+
+```
+business-change-verification/
+  README.md         — This document
+  FOUNDATION.md     — Why, principles, scope, and non-goals
+  CONTRIBUTING.md   — How to contribute
+  LICENSE           — MIT
+  playbooks/        — Verification playbooks by business change type
+  research/         — Empirical findings and benchmark data
+  examples/         — Worked examples
+```
+
+---
+
 ## Contributing
 
 Business Change Verification is intended to evolve through practical implementation and observed enterprise behavior.
 
 Issues, discussion, and improvements to the public methodology are welcome.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
