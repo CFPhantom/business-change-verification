@@ -1,7 +1,6 @@
 Business Change Verification is an open methodology. It is not a product, platform, or software implementation.
 
 ---
-
 # Business Change Verification (BCV)
 
 *Organizations continuously create enterprise value through business change. BCV defines how those changes can be verified in a machine-mediated world.*
