@@ -1,11 +1,12 @@
-[README.md](https://github.com/user-attachments/files/30638520/README.md)
 Business Change Verification is an open methodology. It is not a product, platform, or software implementation.
 
 ---
 
 # Business Change Verification (BCV)
 
-Business Change Verification (BCV) is an open methodology for verifying that important organizational changes are accurately reflected wherever machine systems increasingly influence enterprise decisions.
+*Organizations continuously create enterprise value through business change. BCV defines how those changes can be verified in a machine-mediated world.*
+
+Business Change Verification (BCV) is an open methodology for verifying that important organizational changes are accurately reflected wherever AI systems and other machine-consumed information systems increasingly influence enterprise decisions.
 
 Organizations continuously create enterprise value through:
 
@@ -24,11 +25,25 @@ Business Change Verification defines that process.
 
 ---
 
+## Who Should Care?
+
+Business Change Verification is intended for organizations that regularly create enterprise value through change, including:
+
+- Enterprise Architecture
+- Product Management
+- Corporate Development (M&A)
+- Investor Relations
+- Corporate Communications
+- Marketing
+- Data & AI Governance
+
+---
+
 ## Why BCV Exists
 
 Organizations routinely verify legal, financial, cybersecurity, and regulatory changes.
 
-Very few verify how those same changes are represented across machine-consumed information systems.
+Very few verify how those same changes are represented across AI systems and machine-consumed information systems.
 
 BCV exists to define that verification process.
 
@@ -65,9 +80,25 @@ BCV defines **what** should be verified. It intentionally does not prescribe **h
 
 ---
 
+## Example
+
+**Business Change:**
+Acme Corp acquires ExampleCo.
+
+**Question:**
+Do leading AI systems consistently recognize ExampleCo as part of Acme Corp?
+
+**Evidence:**
+Collected across multiple AI systems and machine-consumed information sources.
+
+**Outcome:**
+Verified / Not Verified
+
+---
+
 ## What is a Business Change?
 
-A Business Change is any organizational event that should alter how external machine systems understand an enterprise.
+A Business Change is any organizational event that should alter how external AI systems and machine-consumed information sources understand an enterprise.
 
 Examples include:
 
