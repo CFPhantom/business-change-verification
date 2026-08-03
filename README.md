@@ -1,26 +1,58 @@
-Business Change Verification is an open methodology. It is not a product, platform, or software implementation.
+[README.md](https://github.com/user-attachments/files/30670684/README.md)
+This repository contains the open technical standards that support Business Change Verification.
+
+```
+BCV (the discipline)
+       ↓
+Open Standards (this repository)
+       ↓
+Implementation Examples
+```
+
+The discipline defines what should be verified. BCV is not a brand measurement discipline, it verifies organizational facts declared by the company, and whether those facts are accurately reflected in how AI understands the company. The standards define how to implement the company AI profile that makes verification possible. The examples show what implementation looks like in practice. The repository supports the discipline. It does not define it.
 
 ---
+
 # Business Change Verification (BCV)
 
-*Organizations continuously create enterprise value through business change. BCV defines how those changes can be verified in a machine-mediated world.*
+*Organizations continuously create enterprise value through business change. BCV defines how those changes can be verified in a AI-mediated world.*
 
-Business Change Verification (BCV) is an open methodology for verifying that important organizational changes are accurately reflected wherever AI systems and other machine-consumed information systems increasingly influence enterprise decisions.
+Every organization now has two audiences: humans and machines.
 
-Organizations continuously create enterprise value through:
+For twenty years, organizations built their websites, communications, and brand materials for the first audience. Machine systems, including AI assistants, search engines, and automated research tools, read those same materials anyway, and reconstruct an understanding of the organization from signals never designed for them.
 
-- Product launches
+Business Change Verification (BCV) is the operational discipline that verifies major organizational changes are accurately reflected in how AI understands the company.
+
+BCV applies to **Material Business Events**, changes that materially alter how an organization should be understood: acquisitions, leadership transitions, product launches, strategic partnerships, regulatory approvals, rebranding, and divestitures. It does not apply to ordinary business activity.
+
+The **company AI profile** is the structured, first-party, machine-readable representation through which an organization intentionally communicates authoritative facts to AI systems. It does not replace the other signals machines ingest. It gives the organization an authoritative voice among them where before it had none.
+
+BCV is not the company AI profile. The layer is the input. BCV is the discipline that keeps it true.
+
+Organizations continuously create business change through:
+
 - Acquisitions
-- Leadership changes
+- Product launches
+- Leadership transitions
 - Strategic partnerships
 - Certifications
 - Market expansion
 
-Historically, organizations have focused on announcing these changes to people.
+Each change creates a Verification Gap: the period between when a change occurs and when AI systems accurately reflect it. BCV defines the process for closing that gap and verifying that it closed.
 
-As AI systems increasingly participate in research, evaluation, and recommendation, organizations also need a repeatable process for verifying how these changes are represented to machine consumers.
+---
 
-Business Change Verification defines that process.
+## The Five Questions BCV Always Asks
+
+Regardless of industry or sector, every BCV Assessment asks the same five questions about each Material Business Event:
+
+1. **What changed?** What was the Material Business Event and when did it occur?
+2. **What was intended?** What did leadership declare as the intended market understanding?
+3. **What does AI understand?** Is that understanding reflected in how AI currently describes the company?
+4. **Who owns verifying it?** Is there a named individual responsible for closing the gap?
+5. **Is there a process?** Is there an operational workflow that runs after every future Material Business Event?
+
+**Verification Confidence** is achieved when the organization's declared business changes are consistently reflected in AI-assisted research across the standard verification questions.
 
 ---
 
@@ -162,13 +194,13 @@ Those belong to operational platforms built on top of the methodology.
 
 ```
 business-change-verification/
-  README.md         — This document
-  FOUNDATION.md     — Why, principles, scope, and non-goals
-  CONTRIBUTING.md   — How to contribute
-  LICENSE           — MIT
-  playbooks/        — Verification playbooks by business change type
-  research/         — Empirical findings and benchmark data
-  examples/         — Worked examples
+  README.md        , This document
+  FOUNDATION.md    , Why, principles, scope, and non-goals
+  CONTRIBUTING.md  , How to contribute
+  LICENSE          , MIT
+  playbooks/       , Verification playbooks by business change type
+  research/        , Empirical findings and benchmark data
+  examples/        , Worked examples
 ```
 
 ---
