@@ -1,8 +1,13 @@
+[FOUNDATION.md](https://github.com/user-attachments/files/30670726/FOUNDATION.md)
 # Foundation
 
 ## Why BCV Exists
 
-Organizations routinely verify legal, financial, cybersecurity, and regulatory changes. Very few verify how those same changes are represented across machine-consumed information systems. As AI systems increasingly participate in research, evaluation, and recommendation, that gap has operational consequences. Business Change Verification exists to define that verification process.
+Every organization now has two audiences: humans and machines. Organizations routinely verify legal, financial, cybersecurity, and regulatory changes. Very few verify how those same changes are represented to AI systems.
+
+AI systems reconstruct an organization from signals that were never designed to describe it to machines. When a business change occurs, the human-facing website may be updated immediately. The company AI profile may lag by months or years. Nobody owns closing that gap.
+
+Business Change Verification exists to define the process for closing it.
 
 ---
 
@@ -13,6 +18,68 @@ Organizations routinely verify legal, financial, cybersecurity, and regulatory c
 - **Implementation agnostic.** BCV defines what should be verified. It intentionally does not prescribe how organizations implement that verification.
 - **Recurring, not one-time.** Organizations never stop changing. BCV is designed as an operational process, not a periodic audit.
 - **Bounded scope.** A methodology with clear non-goals is more useful than one that claims everything.
+
+---
+
+## Operating Principle
+
+**BCV verifies what AI systems say, not how they reached that conclusion.**
+
+Phantom verifies outcomes, not model internals. A buyer does not care whether a model ingested a specific file. They care whether the model correctly describes their acquisition. This principle is a permanent guardrail against overclaiming. BCV observes what AI systems output and whether the company AI profile was fetched. It does not claim to observe, prove, or control what happens inside a model between those two points.
+
+---
+
+## The Verification Loop
+
+BCV is not a one-time audit. It is a repeating operational loop:
+
+```
+Business change occurs
+        |
+        v
+Machine-facing layer updated
+        |
+        v
+Observe machine outputs
+        |
+        v
+Identify the Verification Gap
+        |
+        v
+Remediate
+        |
+        v
+Verify convergence
+        |
+        v
+Operational history grows
+        |
+        v
+Patterns improve; next verification is faster and better
+        |
+        v
+Repeat
+```
+
+Every verified business change adds to an operational record that makes the next verification faster and better. This is the constitutional commitment made mechanical: every verified business change should make the next business change easier to verify.
+
+---
+
+## Verification Confidence
+
+**Verification Confidence** is achieved when the organization's declared business changes are consistently reflected in AI-assisted research across the standard verification questions. It is the outcome that every BCV engagement is designed to produce.
+
+---
+
+## Verb Discipline
+
+The words used to describe BCV capabilities are load-bearing. Precise language keeps every claim defensible.
+
+**Permitted:** declare, publish, author, expose, represent, verify, measure, observe, align, reconcile
+
+**Prohibited:** control, guarantee, force, ensure model behavior, prove ingestion, influence rankings, immunize
+
+The prohibition is not legal. These words are technically false. BCV does not control the model, cannot guarantee an output, cannot force a crawler, and cannot prove a file was ingested. Every prohibited verb describes a claim a competent engineer can dismantle in one sentence.
 
 ---
 
@@ -29,7 +96,35 @@ This includes:
 
 ---
 
+## Material Business Events
+
+A Material Business Event is any organizational change that materially alters how the organization should be understood by external audiences. BCV applies to Material Business Events only, not to ordinary business activity.
+
+**Included:** leadership transitions, acquisitions, divestitures, product launches, strategic partnerships, regulatory approvals, rebranding, geographic expansion, material certifications, organizational restructuring.
+
+**Excluded:** blog posts, webinars, trade shows, hiring below executive level, minor feature releases, awards, customer case studies, internal announcements.
+
+**Threshold:** Would a buyer, analyst, or investor want to know this when evaluating the company? If yes, it is a Material Business Event.
+
+---
+
+## The Five Questions BCV Always Asks
+
+Regardless of industry, company size, or sector, every BCV Assessment asks the same five questions about each Material Business Event:
+
+1. **What changed?** What was the Material Business Event and when did it occur?
+2. **What was intended?** What did leadership declare as the intended market understanding of the change?
+3. **What does AI understand?** Is that intended understanding accurately reflected in how AI currently describes the company?
+4. **Who owns verifying it?** Is there a named individual responsible for closing the gap?
+5. **Is there a process?** Is there an operational workflow that runs after every future Material Business Event?
+
+These five questions apply equally across all industries and sectors. That universality is what makes BCV an operational governance discipline rather than a technology service.
+
+---
+
 ## Non-Goals
+
+**BCV is not a brand measurement discipline.** It verifies organizational facts declared by the company, and whether those facts are accurately reflected in how AI understands the company.
 
 BCV does not:
 
