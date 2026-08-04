@@ -1,6 +1,7 @@
+[product-launch.md](https://github.com/user-attachments/files/30719719/product-launch.md)
 # Playbook: Product Launch
 
-**Business Change Type:** Product Launch
+**Material Business Event Type:** Product Launch
 **BCV Version:** 0.1
 **Status:** Draft
 
@@ -20,7 +21,7 @@ Do AI systems consistently recognize the new product as part of the organization
 
 ## BCV Lifecycle: Product Launch
 
-### Step 1 — Define the Business Change
+### Step 1 — Define the Material Business Event
 
 Document the specific change before beginning verification.
 
