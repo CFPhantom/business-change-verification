@@ -1,5 +1,4 @@
 [FOUNDATION-2.md](https://github.com/user-attachments/files/30719824/FOUNDATION-2.md)
-[FOUNDATION.md](https://github.com/user-attachments/files/30670726/FOUNDATION.md)
 # Foundation
 
 ## Why BCV Exists
