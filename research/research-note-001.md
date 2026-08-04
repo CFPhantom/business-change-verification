@@ -1,3 +1,4 @@
+[research-note-001.md](https://github.com/user-attachments/files/30719979/research-note-001.md)
 # Research Note 001
 
 **The Governance Gap in Business Change Verification**
@@ -8,13 +9,13 @@
 
 ## Summary
 
-A benchmark of 50 organizations across 13 sectors found that organizational changes consistently create observable gaps in how AI systems represent those organizations. Every organization in the dataset was at the earliest stage of governance maturity. No organization had a defined owner, documented process, or verification workflow for how business changes propagate into AI systems and machine-consumed information sources.
+A benchmark of 100 organizations across 13 sectors found that organizational changes consistently create observable gaps in how AI systems represent those organizations. Every organization in the dataset was at the earliest stage of governance maturity. No organization had a defined owner, documented process, or verification workflow for how business changes propagate into AI systems and machine-consumed information sources.
 
 ---
 
 ## Method
 
-50 organizations were assessed across 13 sectors using a four-dimension framework measuring Entity Clarity, Off-Site Presence, Citability, and Signal Verification. Each organization was scored on a 100-point scale. Governance maturity was assessed independently from technical score.
+100 organizations were assessed across 13 sectors using a four-dimension framework measuring Entity Clarity, Off-Site Presence, Citability, and Signal Verification. Each organization was scored on a 100-point scale. Governance maturity was assessed independently from technical score.
 
 AI representation was observed by querying major AI systems and reviewing machine-consumed information sources for accuracy relative to known organizational facts.
 
@@ -30,17 +31,17 @@ This finding has a practical consequence: an organization can improve its techni
 
 **Finding 2: Acquisition events create the most persistent gaps.**
 
-Of the 50 organizations assessed, 22 (44%) showed evidence of acquisition fragmentation — where an acquired entity was not consistently recognized as part of the acquiring organization across AI systems and machine-consumed sources. The average time since acquisition for these organizations was 56 months. The median was 42 months.
+Of the 50 organizations in the original benchmark sample, 22 (44%) showed evidence of acquisition fragmentation — where an acquired entity was not consistently recognized as part of the acquiring organization across AI systems and machine-consumed sources. The average time since acquisition for these organizations was 56 months. The median was 42 months.
 
 Acquisition gaps persisted significantly longer than other event types. Leadership transitions and product launches showed faster propagation, though still without consistent verification.
 
 **Finding 3: No organization had a named owner for machine representation.**
 
-Across all 50 organizations, no publicly observable governance owner was identified for how the organization is represented in AI systems and machine-consumed information sources. This does not mean no owner exists internally — it means no ownership was publicly observable or structurally defined.
+Across all 100 organizations, no publicly observable governance owner was identified for how the organization is represented in AI systems and machine-consumed information sources. This does not mean no owner exists internally — it means no ownership was publicly observable or structurally defined.
 
 **Finding 4: Score variation was high despite uniform governance.**
 
-AI representation scores ranged from 39 to 87 — a spread of 48 points — despite every organization being at the same governance maturity level. This suggests that technical implementation differences are significant and observable, while governance practices have not yet differentiated across the dataset.
+AI representation scores ranged from 40 to 87 — a spread of 47 points — despite every organization being at the same governance maturity level. This suggests that technical implementation differences are significant and observable, while governance practices have not yet differentiated across the dataset.
 
 ---
 
@@ -57,6 +58,8 @@ BCV, applied to acquisition events specifically, addresses the most prevalent an
 ## Limitations
 
 This research is observational. Causal claims are not made. The dataset represents a convenience sample, not a random sample of the relevant population. Findings are offered as observations to be validated through further research and practical implementation.
+
+Finding 2's acquisition-fragmentation statistics (44%, 56/42 month averages) reflect the original 50-organization sample and have not been recomputed against the expanded 100-organization dataset referenced elsewhere in this note. Findings 1, 3, and 4 hold at both sample sizes.
 
 ---
 
