@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30670684/README.md)
 This repository contains the open technical standards that support Business Change Verification.
 
 ```
@@ -9,13 +8,13 @@ Open Standards (this repository)
 Implementation Examples
 ```
 
-The discipline defines what should be verified. BCV is not a brand measurement discipline, it verifies organizational facts declared by the company, and whether those facts are accurately reflected in how AI understands the company. The standards define how to implement the company AI profile that makes verification possible. The examples show what implementation looks like in practice. The repository supports the discipline. It does not define it.
+The discipline defines what should be verified. BCV is not a brand measurement discipline, it verifies organizational facts declared by the company, and whether those facts are accurately reflected in how AI understands the company. The standards define how to implement the AI Layer that makes verification possible. The examples show what implementation looks like in practice. The repository supports the discipline. It does not define it.
 
 ---
 
 # Business Change Verification (BCV)
 
-*Organizations continuously create enterprise value through business change. BCV defines how those changes can be verified in a AI-mediated world.*
+*Organizations continuously create enterprise value through material business change. BCV defines how those changes can be verified in a AI-mediated world.*
 
 Every organization now has two audiences: humans and machines.
 
@@ -25,11 +24,11 @@ Business Change Verification (BCV) is the operational discipline that verifies m
 
 BCV applies to **Material Business Events**, changes that materially alter how an organization should be understood: acquisitions, leadership transitions, product launches, strategic partnerships, regulatory approvals, rebranding, and divestitures. It does not apply to ordinary business activity.
 
-The **company AI profile** is the structured, first-party, machine-readable representation through which an organization intentionally communicates authoritative facts to AI systems. It does not replace the other signals machines ingest. It gives the organization an authoritative voice among them where before it had none.
+The **AI Layer** is the structured, first-party, machine-readable representation through which an organization intentionally communicates authoritative facts to AI systems. It does not replace the other signals machines ingest. It gives the organization an authoritative voice among them where before it had none.
 
-BCV is not the company AI profile. The layer is the input. BCV is the discipline that keeps it true.
+BCV is not the AI Layer. The layer is the input. BCV is the discipline that keeps it true.
 
-Organizations continuously create business change through:
+Organizations continuously create material business change through:
 
 - Acquisitions
 - Product launches
@@ -82,10 +81,10 @@ BCV exists to define that verification process.
 
 ## BCV Lifecycle
 
-Every Business Change follows the same lifecycle.
+Every Material Business Event follows the same lifecycle.
 
 ```
-Business Change
+Material Business Event
        ↓
 Current Machine View
        ↓
@@ -113,7 +112,7 @@ BCV defines **what** should be verified. It intentionally does not prescribe **h
 
 ## Example
 
-**Business Change:**
+**Material Business Event:**
 Acme Corp acquires ExampleCo.
 
 **Question:**
@@ -127,9 +126,9 @@ Verified / Not Verified
 
 ---
 
-## What is a Business Change?
+## What is a Material Business Event?
 
-A Business Change is any organizational event that should alter how external AI systems and machine-consumed information sources understand an enterprise.
+A Material Business Event is any organizational event that should alter how external AI systems and machine-consumed information sources understand an enterprise.
 
 Examples include:
 
@@ -198,7 +197,7 @@ business-change-verification/
   FOUNDATION.md    , Why, principles, scope, and non-goals
   CONTRIBUTING.md  , How to contribute
   LICENSE          , MIT
-  playbooks/       , Verification playbooks by business change type
+  playbooks/       , Verification playbooks by material business event type
   research/        , Empirical findings and benchmark data
   examples/        , Worked examples
 ```
