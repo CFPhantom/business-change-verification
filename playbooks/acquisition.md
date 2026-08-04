@@ -1,6 +1,7 @@
+[acquisition.md](https://github.com/user-attachments/files/30719708/acquisition.md)
 # Playbook: Acquisition
 
-**Business Change Type:** Acquisition
+**Material Business Event Type:** Acquisition
 **BCV Version:** 0.1
 **Status:** Draft
 
@@ -30,7 +31,7 @@ Research Note 001 (in the `/research` folder) found that acquisition gaps persis
 
 ## BCV Lifecycle: Acquisition
 
-### Step 1 — Define the Business Change
+### Step 1 — Define the Material Business Event
 
 Document the specific change before beginning verification.
 
