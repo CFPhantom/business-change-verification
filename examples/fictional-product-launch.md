@@ -1,3 +1,4 @@
+[fictional-product-launch.md](https://github.com/user-attachments/files/30719678/fictional-product-launch.md)
 # Example: Product Launch Verification
 
 **Type:** Fictional worked example
@@ -8,7 +9,7 @@
 
 ---
 
-## The Business Change
+## The Material Business Event
 
 **Organization:** Meridian Systems
 **Product:** Meridian Vault — a new enterprise data security platform
@@ -17,7 +18,7 @@
 
 ---
 
-## Step 1 — Define the Business Change
+## Step 1 — Define the Material Business Event
 
 | Field | Value |
 |---|---|
